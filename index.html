@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Free Automated Malware Analysis</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div class="ui fixed horizontal topmenu menu">
+    <div class="ui borderless dropdown item">
+      <i class="cube icon"></i>
+      <div class="ui text">Sandbox</div>
+      <i class="dropdown icon"></i>
+    </div>
+
+    <div class="ui borderless dropdown item">
+      <i class="file icon"></i>
+      <div class="ui text">Quick Scans</div>
+      <i class="dropdown icon"></i>
+    </div>
+
+    <div class="borderless item">
+      <i class="copy icon"></i>
+      <a class="filecollections">File Collections</a>
+    </div>
+
+    <div class="ui borderless dropdown item">
+      <i class="folder icon"></i>
+      <div class="ui text">Resources</div>
+      <i class="dropdown icon"></i>
+    </div>
+
+    <div class="ui borderless dropdown item">
+      <i class="question circle icon"></i>
+      <div class="ui text">Request Info</div>
+      <i class="dropdown icon"></i>
+    </div>
+
+    <div class="ui borderless right dropdown item">
+      <div class="ui text">More</div>
+      <i class="dropdown icon"></i>
+    </div>
+  </div>
+
+  <img class="ui centered large reverseit image" src="https://www.reverse.it/img/logo_reverseit.svg">
+
+  <div class="ui centered mid container">
+    <div class="ui top attached tabular menu">
+      <div class="active toptab item">
+        <i class="upload icon"></i>
+        File/URL
+      </div>
+
+      <div class="bluetab item">
+        <i class="upload blue icon"></i>
+        <p class="bluetext">File Collection</p>
+      </div>
+
+      <div class="bluetab item">
+        <i class="search icon"></i>
+        <p class="bluetext">Report Search</p>
+      </div>
+    </div>
+
+
+    <div class="ui bottom attached active tab segment">
+      <div class="ui center aligned toptext container">
+        <p style="font-size: 16px">This is a free malware analysis service for community that detects and analyzes unknown threat using a unique <strong>Hybrid Analysis</strong> technology</p>
+
+        <div class="ui centered main segment">
+          <i class="cogs icon"></i>
+          <p>Drag & Drop For Instant Analysis</p>
+        </div>
+
+        <div class="ui horizontal divider">or</div>
+        <div class="ui action input">
+          <input type="text" placeholder="http://www.example.com/suspicious.zip">
+          <button class="ui blue button">Analyze</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="ui centered center aligned lower segment">
+    <p>Maximum upload size is 100 MB</p>
+    <p>Powered by <a href="#">CrowdStrike Falcon Sandbox</a></p>
+    <p><a href="#">Interested in a free trial?</a></p>
+  </div>
+
+  <div class="ui footer fluid container">
+      <p>2019 Hybrid Analysis - Terms & Conditions - Data Protection Policy</p>
+  </div>
+
+</body>
+</html>

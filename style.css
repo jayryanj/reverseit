@@ -1,0 +1,74 @@
+.ui.topmenu.menu {
+  background-color: #f8f8f8;
+  box-shadow: #f6f6f6 0px 2px 6px 5px;
+}
+
+.ui.centered.mid.container, .ui.centered.lower.segment{
+  width: 620px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+}
+
+.ui.centered.center.aligned.lower.segment p{
+  line-height: 10px;
+}
+
+.ui.centered.large.reverseit.image {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.filecollections {
+  color: black;
+}
+
+.ui.center.aligned.toptext.container {
+  margin-top: 15px;
+}
+
+.ui.bottom.attached.active.tab.segment {
+  background-color: #fdfdff;
+}
+
+.active.toptab.item {
+  background-color: #fdfdff;
+}
+
+.cogs.icon {
+  font-size: 75px;
+  margin-top: 45px;
+  margin-bottom: 20px;
+  color: gray;
+}
+
+.ui.centered.main.segment {
+  margin-left: 90px;
+  margin-right: 90px;
+  border-color: #b0b0b0;
+  border-width: 2px;
+  border-style: dashed;
+}
+
+.search.icon, .upload.blue.item, .bluetext {
+  color: #337ab7;
+}
+
+.ui.horizontal.divider {
+  margin: 20px 90px;
+}
+
+.ui.action.input {
+  width: 400px;
+}
+
+.ui.footer.container {
+  height: 50px;
+  background-color: #337ab7;
+  padding-top: 10px;
+}
+
+.ui.footer.container p {
+  margin-left: 10px;
+  color: #41a4dd;
+}
